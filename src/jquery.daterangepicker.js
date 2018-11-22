@@ -908,6 +908,7 @@
       batchMode: false,
       duration: 200,
       stickyMonths: false,
+      stickySelection: false,
       dayDivAttrs: [],
       dayTdAttrs: [],
       selectForward: false,

@@ -330,16 +330,22 @@
   color: #333;
 }
 
-.date-picker-wrapper .drp_top-bar .apply-btn {
+.date-picker-wrapper .drp_top-bar .btns-container {
   position: absolute;
   right: 0px;
   top: 6px;
+}
+
+.date-picker-wrapper .drp_top-bar .btn {
   padding: 3px 5px;
   margin: 0;
   font-size: 12px;
   border-radius: 4px;
   cursor: pointer;
   color: #d9eef7;
+}
+
+.date-picker-wrapper .drp_top-bar .apply-btn {
   border: solid 1px #0076a3;
   background: #0095cd;
   background: -moz-linear-gradient(top, #00adee, #0078a5);
@@ -355,6 +361,14 @@
   background: #fff;
   background: -moz-linear-gradient(top, #fff, #ededed);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+
+.date-picker-wrapper .drp_top-bar .clear-btn {
+  margin-right: 6px;
+  color: #606060;
+  border: solid 1px #b7b7b7;
+  background: #fff;
+  background: -moz-linear-gradient(top, #fff, #ededed);
 }
 
 .date-picker-wrapper .time {

@@ -290,16 +290,23 @@
         }
       }
     }
-    .apply-btn {
+
+    .btns-container {
       position: absolute;
       right: 0px;
       top: 6px;
+    }
+
+    .btn {
       padding: 3px 5px;
       margin: 0;
       font-size: 12px;
       border-radius: 4px;
       cursor: pointer;
       color: #d9eef7;
+    }
+
+    .apply-btn {
       border: solid 1px #0076a3;
       background: #0095cd;
       background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
@@ -317,6 +324,16 @@
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
       }
     }
+
+    .clear-btn {
+      margin-right: 6px;
+      color: #606060;
+      border: solid 1px #b7b7b7;
+      background: #fff;
+      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+      background: -moz-linear-gradient(top, #fff, #ededed);
+    }
+
   }
   .time {
     position: relative;
